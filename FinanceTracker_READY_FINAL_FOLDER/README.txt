@@ -1,10 +1,27 @@
 
-HOW TO RUN:
+## 🚀 How to Run the Project
 
-1. Install XAMPP.
-2. Copy this folder into:
+### Requirements
+- XAMPP / WAMP / Local PHP server
+- PHP 7+ 
+- MySQL Database
+
+### Steps to Run
+
+1. Clone the repository:
+   git clone https://github.com/YOUR_USERNAME/personal-finance-tracker.git
+
+2. Move the project folder to:
    C:\xampp\htdocs\
-3. Start Apache + MySQL.
-4. Import database.sql in phpMyAdmin.
-5. Open:
-   http://localhost/FinanceTracker_READY_FINAL_FOLDER/signup.php
+
+3. Start Apache and MySQL from XAMPP.
+
+4. Open phpMyAdmin:
+   http://localhost/phpmyadmin
+
+5. Import the database:
+   - Create database named `finance_tracker`
+   - Import `database.sql` file
+
+6. Run the project in browser:
+   http://localhost/personal-finance-tracker/login.php
